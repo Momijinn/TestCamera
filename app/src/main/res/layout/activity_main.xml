@@ -1,0 +1,19 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SurfaceView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySurfaceVIew" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/camera"
+        android:background="@null"
+        android:id="@+id/shutter_btn"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
